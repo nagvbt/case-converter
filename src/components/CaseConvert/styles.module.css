@@ -1,13 +1,15 @@
 .text {
   width: 100%;
-  height: 10rem;
-  margin-bottom: 3rem;
+  height: 15rem;
+  margin-bottom: 2rem;
+  font-size: large;
 }
 
 .buttons {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 1rem;
 }
 
 .num {

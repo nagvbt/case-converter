@@ -4,8 +4,9 @@ import clsx from "clsx";
 import { Button } from "@mui/material";
 import styled from "styled-components";
 
-const StyledButton = styled(Button)`
-  margin: 0.5rem;
+const StyledDiv = styled.span`
+  margin: 0.3rem;
+  text-transform: "none";
 `;
 
 export default function CaseConvert(): JSX.Element {
@@ -258,147 +259,183 @@ export default function CaseConvert(): JSX.Element {
         </div>
 
         <div className={clsx("row", styles.Buttons)}>
-          <StyledButton
-            variant="contained"
-            onClick={upperCase}
-            className={styles.btn}
-          >
-            UPPER
-          </StyledButton>
-          <StyledButton
-            variant="contained"
-            onClick={lowerCase}
-            className={styles.btn}
-          >
-            lower
-          </StyledButton>
-          <StyledButton
-            variant="contained"
-            onClick={titleCase}
-            className={styles.btn}
-          >
-            Title Case
-          </StyledButton>
-          <StyledButton
-            variant="contained"
-            onClick={hyphenCase}
-            className={styles.btn}
-          >
-            hyphen-case
-          </StyledButton>
-          <StyledButton
-            variant="contained"
-            onClick={removeHyphen}
-            className={styles.btn}
-          >
-            Remove Hyphen
-          </StyledButton>
-          <StyledButton
-            variant="contained"
-            onClick={sentenceCase}
-            className={styles.btn}
-          >
-            Sentence Case
-          </StyledButton>
-          <StyledButton
-            variant="contained"
-            onClick={dotCase}
-            className={styles.btn}
-          >
-            dot.case
-          </StyledButton>
-
-          <StyledButton
-            variant="contained"
-            onClick={snakeCase}
-            className={styles.btn}
-          >
-            snake_case
-          </StyledButton>
+          <StyledDiv>
+            <Button
+              variant="contained"
+              onClick={upperCase}
+              className={styles.btn}
+            >
+              UPPER
+            </Button>
+          </StyledDiv>
+          <StyledDiv>
+            <Button
+              variant="contained"
+              onClick={lowerCase}
+              className={styles.btn}
+            >
+              lower
+            </Button>
+          </StyledDiv>
+          <StyledDiv>
+            <Button
+              variant="contained"
+              onClick={titleCase}
+              className={styles.btn}
+            >
+              Title Case
+            </Button>
+          </StyledDiv>
+          <StyledDiv>
+            <Button
+              variant="contained"
+              onClick={hyphenCase}
+              className={styles.btn}
+            >
+              hyphen-case
+            </Button>
+          </StyledDiv>
+          <StyledDiv>
+            <Button
+              variant="contained"
+              onClick={removeHyphen}
+              className={styles.btn}
+            >
+              Remove Hyphen
+            </Button>
+          </StyledDiv>
+          <StyledDiv>
+            <Button
+              variant="contained"
+              onClick={sentenceCase}
+              className={styles.btn}
+            >
+              Sentence Case
+            </Button>
+          </StyledDiv>
+          <StyledDiv>
+            <Button
+              variant="contained"
+              onClick={dotCase}
+              className={styles.btn}
+            >
+              dot.case
+            </Button>
+          </StyledDiv>
+          <StyledDiv>
+            <Button
+              variant="contained"
+              onClick={snakeCase}
+              className={styles.btn}
+            >
+              snake_case
+            </Button>
+          </StyledDiv>
         </div>
 
         <div className={clsx("row", styles.Buttons)}>
-          <StyledButton
-            variant="contained"
-            onClick={pascalCase}
-            className={styles.btn}
-          >
-            PascalCase
-          </StyledButton>
-          <StyledButton
-            variant="contained"
-            onClick={camelCase}
-            className={styles.btn}
-          >
-            camelCase
-          </StyledButton>
-
-          <StyledButton
-            variant="contained"
-            onClick={pathCase}
-            className={styles.btn}
-          >
-            path/case
-          </StyledButton>
-          <StyledButton
-            variant="contained"
-            onClick={constantCase}
-            className={styles.btn}
-          >
-            CONSTANT_CASE
-          </StyledButton>
-          <StyledButton
-            variant="contained"
-            onClick={headerCase}
-            className={styles.btn}
-          >
-            Header-Case
-          </StyledButton>
-          <StyledButton
-            variant="contained"
-            onClick={inVerseCase}
-            className={styles.btn}
-          >
-            InVeRsE CaSe
-          </StyledButton>
-          <StyledButton
-            variant="contained"
-            onClick={alternateCase}
-            className={styles.btn}
-          >
-            aLtErNaTiNg cAsE
-          </StyledButton>
+          <StyledDiv>
+            <Button
+              variant="contained"
+              onClick={pascalCase}
+              className={styles.btn}
+            >
+              PascalCase
+            </Button>
+          </StyledDiv>
+          <StyledDiv>
+            <Button
+              variant="contained"
+              onClick={camelCase}
+              className={styles.btn}
+            >
+              camelCase
+            </Button>
+          </StyledDiv>
+          <StyledDiv>
+            <Button
+              variant="contained"
+              onClick={pathCase}
+              className={styles.btn}
+            >
+              path/case
+            </Button>
+          </StyledDiv>
+          <StyledDiv>
+            <Button
+              variant="contained"
+              onClick={constantCase}
+              className={styles.btn}
+            >
+              CONSTANT_CASE
+            </Button>
+          </StyledDiv>
+          <StyledDiv>
+            <Button
+              variant="contained"
+              onClick={headerCase}
+              className={styles.btn}
+            >
+              Header-Case
+            </Button>
+          </StyledDiv>
+          <StyledDiv>
+            <Button
+              variant="contained"
+              onClick={inVerseCase}
+              className={styles.btn}
+            >
+              InVeRsE CaSe
+            </Button>
+          </StyledDiv>
+          <StyledDiv>
+            <Button
+              variant="contained"
+              onClick={alternateCase}
+              className={styles.btn}
+            >
+              aLtErNaTiNg cAsE
+            </Button>
+          </StyledDiv>
         </div>
 
         <div className={clsx("row", styles.Buttons)}>
-          <StyledButton
-            variant="contained"
-            onClick={adaCase}
-            className={styles.btn}
-          >
-            Ada_Case
-          </StyledButton>
-          <StyledButton
-            variant="contained"
-            onClick={cobolCase}
-            className={styles.btn}
-          >
-            COBOL-CASE
-          </StyledButton>
-          <StyledButton
-            variant="contained"
-            onClick={macroCase}
-            className={styles.btn}
-          >
-            MACRO_CASE
-          </StyledButton>
-          <StyledButton
-            variant="contained"
-            onClick={trainCase}
-            className={styles.btn}
-          >
-            Train-Case
-          </StyledButton>
+          <StyledDiv>
+            <Button
+              variant="contained"
+              onClick={adaCase}
+              className={styles.btn}
+            >
+              Ada_Case
+            </Button>
+          </StyledDiv>
+          <StyledDiv>
+            <Button
+              variant="contained"
+              onClick={cobolCase}
+              className={styles.btn}
+            >
+              COBOL-CASE
+            </Button>
+          </StyledDiv>
+          <StyledDiv>
+            <Button
+              variant="contained"
+              onClick={macroCase}
+              className={styles.btn}
+            >
+              MACRO_CASE
+            </Button>
+          </StyledDiv>
+          <StyledDiv>
+            <Button
+              variant="contained"
+              onClick={trainCase}
+              className={styles.btn}
+            >
+              Train-Case
+            </Button>
+          </StyledDiv>
         </div>
       </div>
     </div>
